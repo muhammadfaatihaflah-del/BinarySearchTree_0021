@@ -115,9 +115,11 @@ class binarytree{
             postorder(ptr->leftchild);
             postorder(ptr->rightchild);
             cout << ptr->info << " ";
-        }
-       
+        }  
     }
-
-    
 };
+
+int main()
+{
+    
+}
