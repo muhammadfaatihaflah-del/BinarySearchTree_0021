@@ -8,5 +8,9 @@ public:
     node *leftchild;
     node *rightchild;
 
-    
+    //cons buat node class
+    node(string i,node *l,node *r)
+    {
+        
+    }
 };
