@@ -122,4 +122,7 @@ class binarytree{
 int main()
 {
      binarytree obj;
+     char ch;
+        
+
 }
