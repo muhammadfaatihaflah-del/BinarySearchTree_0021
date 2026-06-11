@@ -90,6 +90,12 @@ class binarytree{
 
     void preorder(node *ptr)
     {
+        if (root == NULL)
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+
         
     }
 
