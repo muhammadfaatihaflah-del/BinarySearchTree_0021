@@ -71,6 +71,7 @@ class binarytree{
                 currentNode = currentNode->rightchild;
         }
     }
+
     void inorder(node *ptr)
     {
         if (root == NULL)
@@ -85,6 +86,11 @@ class binarytree{
             cout << ptr->info << " ";
             inorder(ptr->rightchild);
         }
+    }
+
+    void preorder(node *ptr)
+    {
+        
     }
 
     
