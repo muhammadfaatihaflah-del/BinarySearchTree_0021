@@ -100,9 +100,12 @@ class binarytree{
             cout << ptr->info << " ";
             preorder(ptr->leftchild);
             preorder(ptr->rightchild);
-        }
-
-        
+        } 
+    }
+     void postorder(Node *ptr)
+    {
+        // Performs the postorder traversal of the tree
+       
     }
 
     
