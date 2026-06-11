@@ -56,7 +56,7 @@ class binarytree{
 
     // This function searches the current node of the specified node
     // as well as the current node of its parent
-    void search(string element, Node *&parent, Node *&currentNode)
+    void search(string element, node *&parent, node *&currentNode)
     {
         currentNode = root;
         parent = NULL;
@@ -71,4 +71,21 @@ class binarytree{
                 currentNode = currentNode->rightchild;
         }
     }
+    void inorder(node *ptr)
+    {
+        if (root == NULL)
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+
+        if (ptr != NULL)
+        {
+            inorder(ptr->leftchild);
+            cout << ptr->info << " ";
+            inorder(ptr->rightchild);
+        }
+    }
+
+    
 };
